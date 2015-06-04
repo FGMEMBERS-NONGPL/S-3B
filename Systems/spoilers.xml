@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<system name="spoilers">
+
+  <channel name="Left">
+
+   <summer name="Left Spoiler Sum">
+      <input>-fcs/left-aileron-pos-norm</input>
+      <input>fcs/spoiler-cmd-norm</input>
+      <clipto>
+        <min>  0 </min>
+        <max>  1 </max>
+      </clipto>
+      <output>systems/spoilers/left-spoiler-pos-norm</output>
+   </summer>
+
+  </channel>
+
+
+  <channel name="Right">
+
+   <summer name="Right Spoiler Sum">
+      <input>fcs/right-aileron-pos-norm</input>
+      <input>fcs/spoiler-cmd-norm</input>
+      <clipto>
+        <min>  0 </min>
+        <max>  1 </max>
+      </clipto>
+      <output>systems/spoilers/right-spoiler-pos-norm</output>
+   </summer>
+
+  </channel>
+
+
+</system>

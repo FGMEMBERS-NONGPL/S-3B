@@ -1,0 +1,792 @@
+<!-- A wrapper/animation file for the S-3B 3D model -->
+
+<PropertyList>
+
+ <path>s3.ac</path>
+
+
+<!-- ******************** instruments *******************-->
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/RDMI/RDMI.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.44</y-m>
+   <z-m> 0.71</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/RDMI/nav-select.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.54</y-m>
+   <z-m> 0.69</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/AI/AI.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.44</y-m>
+   <z-m> 0.82</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/n2/n2-1.xml</path>
+  <offsets>
+   <x-m>-6.09</x-m>
+   <y-m>-0.19</y-m>
+   <z-m> 0.82</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/n2/n2-2.xml</path>
+  <offsets>
+   <x-m>-6.09</x-m>
+   <y-m>-0.12</y-m>
+   <z-m> 0.82</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/AS/600/airspeed.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.54</y-m>
+   <z-m> 0.81</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Alt/version2/altimeter.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.34</y-m>
+   <z-m> 0.81</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/IVSI/IVSI.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.34</y-m>
+   <z-m> 0.72</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Flaps/flaps.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.60</y-m>
+   <z-m> 0.70</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Gear/gear-navy.xml</path>
+  <offsets>
+   <x-m>-6.10</x-m>
+   <y-m>-0.67</y-m>
+   <z-m> 0.695</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Gear/park-brake-light.xml</path>
+  <offsets>
+   <x-m>-6.09</x-m>
+   <y-m>-0.64</y-m>
+   <z-m> 0.73</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/PanelLights/lights.xml</path>
+  <offsets>
+   <x-m>-6.09</x-m>
+   <y-m>-0.64</y-m>
+   <z-m> 0.78</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Fuel/fuel-total-14.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.19</y-m>
+   <z-m> 0.71</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Fuel/refuel-switch.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.14</y-m>
+   <z-m> 0.70</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Fuel/fuel-dump-switch.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.10</y-m>
+   <z-m> 0.70</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/AOA/indexer-navy.xml</path>
+  <offsets>
+   <x-m>-6.00</x-m>
+   <y-m>-0.57</y-m>
+   <z-m> 0.91</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/GMeter/gmeter.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.27</y-m>
+   <z-m> 0.82</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/AOA/aoa.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.61</y-m>
+   <z-m> 0.825</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/MagCompass/comp.xml</path>
+  <offsets>
+   <x-m>-5.90</x-m>
+   <y-m> 0.00</y-m>
+   <z-m> 1.17</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/ILS/ILS.xml</path>
+  <offsets>
+   <x-m>-6.08</x-m>
+   <y-m>-0.53</y-m>
+   <z-m> 0.74</z-m>
+  </offsets>
+ </model>
+
+
+
+<!-- ********************  effects  ********************-->
+
+ <!-- beacon flash (upper)-->
+ <model>
+   <path>Aircraft/DavePack/Effects/Red-beacon/flash.xml</path>
+   <offsets>
+     <x-m>7.56</x-m>
+     <y-m>0.0</y-m>
+     <z-m>5.71</z-m>
+   </offsets>
+ </model>
+
+ <!-- beacon flash (lower)-->
+ <model>
+   <path>Aircraft/DavePack/Effects/Red-beacon/flash2.xml</path>
+   <offsets>
+     <x-m>-2.78</x-m>
+     <y-m>0.0</y-m>
+     <z-m>-0.85</z-m>
+   </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Effects/Vortex/condensation-left.xml</path>
+   <offsets>
+     <x-m>  3.0</x-m>
+     <y-m>-10.6</y-m>
+     <z-m>  1.0</z-m>
+     <pitch-deg>0</pitch-deg>
+   </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Effects/Vortex/condensation-right.xml</path>
+   <offsets>
+     <x-m>  3.0</x-m>
+     <y-m> 10.6</y-m>
+     <z-m>  1.0</z-m>
+     <pitch-deg>0</pitch-deg>
+   </offsets>
+ </model>
+
+  <!-- Contrail-left -->
+  <model>
+    <path>Aircraft/DavePack/Effects/Contrail/contrail-left.xml</path>
+    <offsets>
+      <x-m>   1.0 </x-m>
+      <y-m>  -4.0 </y-m>
+      <z-m>   0.0 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Contrail-right -->
+  <model>
+    <path>Aircraft/DavePack/Effects/Contrail/contrail-right.xml</path>
+    <offsets>
+      <x-m>   1.0 </x-m>
+      <y-m>   4.0 </y-m>
+      <z-m>   0.0 </z-m>
+    </offsets>
+  </model>
+
+
+
+<!-- ******************** animations ********************-->
+
+
+ <animation>
+     <type>shader</type>
+     <shader>chrome</shader>
+     <texture>dark-metal-world.png</texture>
+     <object-name>LInletCone</object-name>
+     <object-name>RInletCone</object-name>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>NoseGear</object-name>
+  <object-name>LNoseTire</object-name>
+  <object-name>RNoseTire</object-name>
+  <object-name>LNoseGearDoor</object-name>
+  <object-name>RNoseGearDoor</object-name>
+  <condition>
+   <greater-than>
+    <property>gear/gear[0]/position-norm</property>
+    <value>0</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>LMainGear</object-name>
+  <object-name>LMainTire</object-name>
+  <object-name>LMainGearDoorUpper</object-name>
+  <object-name>LMainGearDoorLower</object-name>
+  <object-name>RMainGear</object-name>
+  <object-name>RMainTire</object-name>
+  <object-name>RMainGearDoorUpper</object-name>
+  <object-name>RMainGearDoorLower</object-name>
+  <condition>
+   <greater-than>
+    <property>gear/gear[1]/position-norm</property>
+    <value>0.10</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>RMainGearWellCover</object-name>
+  <object-name>LMainGearWellCover</object-name>
+  <object-name>NoseGearWellCover</object-name>
+  <condition>
+   <less-than>
+    <property>gear/gear[0]/position-norm</property>
+    <value>0.05</value>
+   </less-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LElevator</object-name>
+  <object-name>LElevatorWicks</object-name>
+  <property>surface-positions/elevator-pos-norm</property>
+  <factor>-25</factor>
+  <axis>
+     <x1-m> 6.632</x1-m>
+     <y1-m>-0.302</y1-m>
+     <z1-m> 1.30</z1-m>
+     <x2-m> 7.331</x2-m>
+     <y2-m>-3.926</y2-m>
+     <z2-m> 1.71</z2-m>
+  </axis> 
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RElevator</object-name>
+  <object-name>RElevatorWicks</object-name>
+  <property>surface-positions/elevator-pos-norm</property>
+  <factor>25</factor>
+  <axis>
+     <x1-m> 6.632</x1-m>
+     <y1-m> 0.302</y1-m>
+     <z1-m> 1.30</z1-m>
+     <x2-m> 7.331</x2-m>
+     <y2-m> 3.926</y2-m>
+     <z2-m> 1.71</z2-m>
+  </axis> 
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Rudder</object-name>
+  <object-name>VTailStaticWicks</object-name>
+  <property>surface-positions/rudder-pos-norm</property>
+  <factor>20</factor>
+  <offset-deg>0</offset-deg>   
+  <axis>
+     <x1-m>6.27</x1-m>
+     <y1-m>0</y1-m>
+     <z1-m>1.96</z1-m>
+     <x2-m>8.26</x2-m>
+     <y2-m>0</y2-m>
+     <z2-m>5.34</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LFlapInner</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>30</factor>
+  <axis>
+     <x1-m> 0.918</x1-m>
+     <y1-m>-4.414</y1-m>
+     <z1-m> 1.406</z1-m>
+     <x2-m> 0.505</x2-m>
+     <y2-m>-1.402</y2-m>
+     <z2-m> 1.464</z2-m>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>RFlapInner</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>-30</factor>
+  <axis>
+     <x1-m> 0.918</x1-m>
+     <y1-m> 4.414</y1-m>
+     <z1-m> 1.406</z1-m>
+     <x2-m> 0.505</x2-m>
+     <y2-m>-1.402</y2-m>
+     <z2-m> 1.464</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>LFlapInner</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.5</factor>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>RFlapInner</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.5</factor>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+ <!-- Wing Folding, left side -->
+ <animation>
+  <type>rotate</type>
+  <object-name>LWingOuter</object-name>
+  <object-name>LWingTip</object-name>
+  <object-name>LFlapOuter</object-name>
+  <object-name>LSlat</object-name>
+  <object-name>LSpoilerOuter</object-name>
+  <property>surface-positions/wing-fold-pos-norm</property>
+  <factor>165</factor>
+  <axis>
+     <x1-m> 0.92</x1-m>
+     <y1-m>-4.41</y1-m>
+     <z1-m> 1.42</z1-m>
+     <x2-m>-0.06</x2-m>
+     <y2-m>-4.32</y2-m>
+     <z2-m> 1.47</z2-m>
+  </axis>
+ </animation>
+ <animation>
+  <type>rotate</type>
+  <object-name>LAileron</object-name>
+  <property>surface-positions/wing-fold-pos-norm</property>
+  <factor>165</factor>
+  <axis>
+     <x1-m> 0.92</x1-m>
+     <y1-m>-4.41</y1-m>
+     <z1-m> 1.42</z1-m>
+     <x2-m>-0.06</x2-m>
+     <y2-m>-4.32</y2-m>
+     <z2-m> 1.47</z2-m>
+  </axis>
+ </animation>
+
+ <!-- Wing Folding, right side -->
+ <animation>
+  <type>rotate</type>
+  <object-name>RWingOuter</object-name>
+  <object-name>RWingTip</object-name>
+  <object-name>RFlapOuter</object-name>
+  <object-name>RSlat</object-name>
+  <object-name>RSpoilerOuter</object-name>
+  <property>surface-positions/wing-fold-pos-norm</property>
+  <factor>-165</factor>
+  <axis>
+     <x1-m> 0.92</x1-m>
+     <y1-m> 4.42</y1-m>
+     <z1-m> 1.42</z1-m>
+     <x2-m>-0.02</x2-m>
+     <y2-m> 4.56</y2-m>
+     <z2-m> 1.47</z2-m>
+  </axis>
+ </animation>
+ <animation>
+  <type>rotate</type>
+  <object-name>RAileron</object-name>
+  <property>surface-positions/wing-fold-pos-norm</property>
+  <factor>-165</factor>
+  <axis>
+     <x1-m> 0.92</x1-m>
+     <y1-m> 4.42</y1-m>
+     <z1-m> 1.42</z1-m>
+     <x2-m>-0.02</x2-m>
+     <y2-m> 4.56</y2-m>
+     <z2-m> 1.47</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LSlat</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <interpolation>
+    <entry><ind>0</ind><dep>0</dep></entry>
+    <entry><ind>0.3</ind><dep>-30</dep></entry>
+  </interpolation>
+  <axis>
+     <x1-m> 1.292</x1-m>
+     <y1-m>-10.46</y1-m>
+     <z1-m> 1.292</z1-m>
+     <x2-m>-0.584</x2-m>
+     <y2-m>-4.271</y2-m>
+     <z2-m> 1.238</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RSlat</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <interpolation>
+    <entry><ind>0</ind><dep>0</dep></entry>
+    <entry><ind>0.3</ind><dep>30</dep></entry>
+  </interpolation>
+  <axis>
+     <x1-m> 1.292</x1-m>
+     <y1-m>10.46</y1-m>
+     <z1-m> 1.292</z1-m>
+     <x2-m>-0.584</x2-m>
+     <y2-m> 4.271</y2-m>
+     <z2-m> 1.238</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LFlapOuter</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>30</factor>
+  <axis>
+     <x1-m> 1.435</x1-m>
+     <y1-m>-7.752</y1-m>
+     <z1-m> 1.387</z1-m>
+     <x2-m> 0.918</x2-m>
+     <y2-m>-4.412</y2-m>
+     <z2-m> 1.409</z2-m>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>RFlapOuter</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>-30</factor>
+  <axis>
+     <x1-m> 1.435</x1-m>
+     <y1-m> 7.752</y1-m>
+     <z1-m> 1.387</z1-m>
+     <x2-m> 0.918</x2-m>
+     <y2-m> 4.412</y2-m>
+     <z2-m> 1.409</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>LFlapOuter</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.5</factor>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>RFlapOuter</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>0.5</factor>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LAileron</object-name>
+  <property>surface-positions/left-aileron-pos-norm</property>
+  <factor>15</factor>
+  <axis>
+     <x1-m> 1.762</x1-m>
+     <y1-m>-9.937</y1-m>
+     <z1-m> 1.355</z1-m>
+     <x2-m> 1.434</x2-m>
+     <y2-m>-7.751</y2-m>
+     <z2-m> 1.355</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RAileron</object-name>
+  <property>surface-positions/right-aileron-pos-norm</property>
+  <factor>15</factor>
+  <axis>
+     <x1-m> 1.762</x1-m>
+     <y1-m> 9.937</y1-m>
+     <z1-m> 1.355</z1-m>
+     <x2-m> 1.434</x2-m>
+     <y2-m> 7.751</y2-m>
+     <z2-m> 1.355</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LSpoilerInner</object-name>
+  <property>fdm/jsbsim/systems/spoilers/left-spoiler-pos-norm</property>
+  <factor>-30</factor>
+  <axis>
+     <x1-m> 0.635</x1-m>
+     <y1-m>-4.377</y1-m>
+     <z1-m> 1.444</z1-m>
+     <x2-m> 0.639</x2-m>
+     <y2-m>-3.152</y2-m>
+     <z2-m> 1.449</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LSpoilerOuter</object-name>
+  <property>fdm/jsbsim/systems/spoilers/left-spoiler-pos-norm</property>
+  <factor>-30</factor>
+  <axis>
+     <x1-m> 1.393</x1-m>
+     <y1-m>-7.748</y1-m>
+     <z1-m> 1.409</z1-m>
+     <x2-m> 0.635</x2-m>
+     <y2-m>-4.377</y2-m>
+     <z2-m> 1.444</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RSpoilerInner</object-name>
+  <property>fdm/jsbsim/systems/spoilers/right-spoiler-pos-norm</property>
+  <factor>30</factor>
+  <axis>
+     <x1-m> 0.635</x1-m>
+     <y1-m> 4.377</y1-m>
+     <z1-m> 1.444</z1-m>
+     <x2-m> 0.639</x2-m>
+     <y2-m> 3.152</y2-m>
+     <z2-m> 1.449</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RSpoilerOuter</object-name>
+  <property>fdm/jsbsim/systems/spoilers/right-spoiler-pos-norm</property>
+  <factor>30</factor>
+  <axis>
+     <x1-m> 1.393</x1-m>
+     <y1-m> 7.748</y1-m>
+     <z1-m> 1.409</z1-m>
+     <x2-m> 0.635</x2-m>
+     <y2-m> 4.377</y2-m>
+     <z2-m> 1.444</z2-m>
+  </axis>
+ </animation>
+
+
+ <!-- Rotating beacon flash (Upper) -->
+ <animation>
+  <type>material</type>
+  <object-name>BeaconUpper</object-name>
+  <emission>
+    <factor-prop>sim/multiplay/generic/float[0]</factor-prop>
+    <red>1</red>
+    <green>0</green>
+    <blue>0</blue>
+  </emission>
+ </animation>
+
+ <!-- Rotating beacon flash (Lower) -->
+ <animation>
+  <type>material</type>
+  <object-name>BeaconLower</object-name>
+  <emission>
+    <factor-prop>sim/multiplay/generic/float[1]</factor-prop>
+    <red>1</red>
+    <green>0</green>
+    <blue>0</blue>
+  </emission>
+ </animation>
+
+ <!-- Tail hook -->
+ <animation>
+  <type>rotate</type>
+  <object-name>Hook</object-name>
+  <property>gear/tailhook/position-norm</property>
+  <factor>-56</factor>
+  <offset-deg>0</offset-deg>
+  <center>
+   <x-m>4.28</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.13</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>-1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>Probe</object-name>
+  <property>fdm/jsbsim/systems/refuel/probe-pos-norm</property>
+  <factor>2.0</factor>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>LWiper</object-name>
+  <property>sim/multiplay/generic/float[8]</property>
+  <factor>40</factor>
+  <offset-deg>0</offset-deg>
+  <center>
+   <x-m>-6.3</x-m>
+   <y-m>-0.07</y-m>
+   <z-m> 0.92</z-m>
+  </center>
+  <axis>
+   <x>-1.0</x>
+   <y>-0.1</y>
+   <z> 0.7</z>
+  </axis>
+ </animation>
+
+ <!-- Suppress Seat/Pilot Models in Cockpit View -->
+ <animation>
+  <type>select</type>
+  <object-name>Pilot</object-name>
+  <object-name>LSeat</object-name>
+  <condition>
+   <not>
+   <equals>
+    <property>sim/current-view/view-number</property>
+    <value>0</value>
+   </equals>
+   </not>
+  </condition>
+ </animation>
+
+ <!-- Compressor Fan, engine 1 -->
+ <animation>
+   <type>spin</type>
+   <object-name>LFan</object-name>
+   <property>engines/engine[0]/n2</property>
+   <factor>3</factor>
+   <center>
+     <x-m>-2.09</x-m>
+     <y-m>-2.35</y-m>
+     <z-m>-0.08</z-m>
+   </center>
+   <axis>
+     <x>-0.9994</x>
+     <y> 0.0</y>
+     <z>-0.0349</z>
+   </axis>
+ </animation>
+
+ <!-- Compressor Fan, engine 2 -->
+ <animation>
+   <type>spin</type>
+   <object-name>RFan</object-name>
+   <property>engines/engine[1]/n2</property>
+   <factor>3</factor>
+   <center>
+     <x-m>-2.09</x-m>
+     <y-m> 2.35</y-m>
+     <z-m>-0.08</z-m>
+   </center>
+   <axis>
+     <x>-0.9994</x>
+     <y> 0.0</y>
+     <z>-0.0349</z>
+   </axis>
+ </animation>
+
+
+</PropertyList>
+ 

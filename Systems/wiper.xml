@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<system name="wiper">
+
+  <property value="1.00" >systems/wiper/frequency</property>
+  <property value="0"    >systems/wiper/on</property>
+  <property value="-1"   >systems/wiper/park</property>
+
+  <channel name="chan">
+
+   <fcs_function name="systems/wiper/animator">
+     <function>
+       <product>
+         <sum>
+           <product>
+             <sin>
+               <product>
+                 <property>sim-time-sec</property>
+                 <value>6.283185307</value>
+                 <property>systems/wiper/frequency</property>
+               </product>
+             </sin>
+             <property>systems/wiper/on</property>
+           </product>
+           <value>1.0</value>
+           <property>systems/wiper/park</property>
+         </sum>
+         <value>0.5</value>
+       </product>
+     </function>
+     <output>/sim/multiplay/generic/float[8]</output>
+   </fcs_function>
+ 
+  </channel>
+
+</system>

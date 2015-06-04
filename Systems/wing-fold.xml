@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<system name="wing_fold">
+
+  <channel>
+
+   <kinematic name="Wing Fold Control">
+     <input>systems/wing_fold/command</input>
+     <traverse>
+       <setting>
+          <position> 0 </position>
+          <time>     0 </time>
+       </setting>
+       <setting>
+          <position> 1 </position>
+          <time>     8 </time>
+       </setting>
+     </traverse>
+     <output>fcs/wing-fold-pos-norm</output>
+   </kinematic>
+
+   <pure_gain name="Wing Fold Position">
+     <input>fcs/wing-fold-pos-norm</input>
+     <gain>1</gain>
+     <output>/surface-positions/wing-fold-pos-norm</output>
+   </pure_gain>
+
+  </channel>
+
+</system>

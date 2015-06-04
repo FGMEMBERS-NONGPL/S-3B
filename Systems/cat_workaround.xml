@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<system name="cat-workaround">
+
+<!--  This system causes the catapult vector to point "straight ahead".
+      Needed because the FlightGear catapult info does not currently
+      pass through to the JSBSim FDM.  -->
+
+  <channel name="Catapult-Workaround">
+
+   <fcs_function name="Calculate Cat Force X">
+     <function>
+       <cos>
+           <property>attitude/psi-rad</property>
+       </cos>
+     </function>
+     <output>external_reactions/catapult/x</output>
+   </fcs_function>
+
+   <fcs_function name="Calculate Cat Force Y">
+     <function>
+       <sin>
+           <property>attitude/psi-rad</property>
+       </sin>
+     </function>
+     <output>external_reactions/catapult/y</output>
+   </fcs_function>
+
+  </channel>
+
+</system>

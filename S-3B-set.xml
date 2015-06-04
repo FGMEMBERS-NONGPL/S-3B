@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+S-3B Sky Warrior config file
+David Culp,  davidculp@cox.net
+released under Creative Commons "CC-BY-NC-SA" license
+************************************************************************
+-->
+
+<PropertyList>
+
+ <sim>
+
+  <description>Lockheed S-3B Viking</description>
+  <author>David Culp, Rick Sasala, "Bravo"</author>
+  <status>beta</status>
+  <flight-model>jsb</flight-model>
+  <aero>S-3B-jsbsim</aero>
+
+  <presets>
+    <running type="bool" archive="y">true</running>
+  </presets>
+
+  <startup>
+   <splash-texture>Aircraft/S-3B/splash.png</splash-texture>
+  </startup>
+
+  <sound>
+    <path>Aircraft/S-3B/Sounds/sound.xml</path> 
+  </sound>
+
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+    <pitch-offset-deg>-4.5</pitch-offset-deg>
+    <x-offset-m archive="y">-0.45</x-offset-m><!-- right/left -->
+    <y-offset-m archive="y"> 1.20</y-offset-m><!-- up/down -->
+    <z-offset-m archive="y">-4.95</z-offset-m><!-- aft/fore -->
+   </config>
+  </view>
+
+  <model>
+   <path>Aircraft/S-3B/Models/S-3B.xml</path>
+  </model>
+
+  <chase-distance-m>-25</chase-distance-m>
+
+  <flaps>
+   <setting>0.000</setting>
+   <setting>0.500</setting> 
+   <setting>1.000</setting> 
+  </flaps>
+
+  <help>
+   <key>
+    <name>Shift-Q</name>
+    <desc>fuel cutoff switch or lever</desc>
+   </key>
+   <key>
+    <name>l (lower case L) </name>
+    <desc>Launch-bar-engage</desc>
+   </key>
+   <key>
+    <name>C (shift-C) </name>
+    <desc>Fire catapult</desc>
+   </key>
+   <key>
+    <name>d (lower case d) </name>
+    <desc>Toggle windshield wipers</desc>
+   </key>
+   <key>
+    <name>f (lower case f) </name>
+    <desc>Toggle refueling probe</desc>
+   </key>
+   <key>
+    <name>n (lower case n) </name>
+    <desc>Toggle tailhook</desc>
+   </key>
+   <key>
+    <name>m (lower case m) </name>
+    <desc>Nose wheel steering</desc>
+   </key>
+   <key>
+    <name>Shift-F </name>
+    <desc>Toggle wing fold</desc>
+   </key>
+   <key>
+    <name>c (lower case c) </name>
+    <desc>Toggle cockpit hatch</desc>
+   </key>
+   <line> </line>
+   <line>Takeoff (ON LAND): half flaps, rotate at 120 kts.</line>
+   <line>Takeoff (CARRIER): half flaps, engage launchbar, max power, fire catapult</line>
+   <line>Landing: full flaps, land at 105 kts. + 3 kts/1000 lb. fuel</line>
+   <line> </line>
+   <line>Clickable panel.  Hit Ctrl-C to see hot spots.</line>
+   <text>
+
+   </text>
+  </help>
+
+ </sim>
+
+ <controls>
+  <flight>
+   <flaps>0.0</flaps>
+   <elevator-trim>-0.00</elevator-trim>
+  </flight>
+  <lighting>
+   <instruments-norm>0.3</instruments-norm>
+  </lighting>
+  <armament>
+   <gunsight>
+    <power-on type="bool">false</power-on>
+    <intensity type="double">0.3</intensity>
+   </gunsight>
+  </armament>
+  <gear>
+   <brake-parking type="double">1</brake-parking>
+  </gear>
+ </controls>
+
+ <engines>
+  <engine n="0">
+    <running>true</running>
+  </engine>
+  <engine n="1">
+    <running>true</running>
+  </engine>
+ </engines>
+
+<input>
+ <keyboard>
+
+    <key n="82">
+     <name>Shift-R</name>
+     <desc>toggle reverser</desc>
+     <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/reverser/command</property>
+     </binding>
+    </key>
+
+    <key n="81">
+     <name>Shift-Q</name>
+     <desc>Fuel Cutoff Switch or Lever.</desc>
+     <binding>
+      <condition>
+       <property>/sim/input/selected/engine[0]</property>
+      </condition>
+      <command>property-toggle</command>
+      <property>/controls/engines/engine[0]/cutoff</property>
+     </binding>
+     <binding>
+      <condition>
+       <property>/sim/input/selected/engine[1]</property>
+      </condition>
+      <command>property-toggle</command>
+      <property>/controls/engines/engine[1]/cutoff</property>
+     </binding>
+    </key>
+
+
+    <key n="99">
+     <name>c</name>
+     <desc>toggle canopy</desc>
+     <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/canopy/command</property>
+     </binding>
+    </key>
+
+    <key n="100">
+     <name>d</name>
+     <desc>toggle wipers</desc>
+     <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/wiper/on</property>
+     </binding>
+     <binding>
+       <command>property-cycle</command>
+       <property>fdm/jsbsim/systems/wiper/park</property>
+       <value>0.0</value>
+       <value>-1.0</value>
+     </binding>
+    </key>
+
+    <key n="108">
+     <name>l</name>
+     <desc>engage holdback</desc>
+     <binding>
+       <command>property-assign</command>
+       <property>fdm/jsbsim/systems/holdback/holdback-cmd</property>
+       <value>1.0</value>
+     </binding>
+    </key>
+
+    <key n="109">
+     <name>m</name>
+     <desc>engage nose wheel steering</desc>
+     <binding>
+      <command>property-assign</command>
+      <property>fdm/jsbsim/systems/NWS/engaged</property>
+      <value>1</value> 
+     </binding>
+     <mod-up>
+       <binding>
+        <command>property-assign</command>
+        <property>fdm/jsbsim/systems/NWS/engaged</property>
+        <value>0</value> 
+       </binding>
+     </mod-up>
+    </key>
+
+    <key n="102">
+      <name>f</name>
+      <desc>Toggle refueling system.</desc>
+      <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/refuel/armed</property>
+      </binding>
+    </key>
+
+    <key n="110">
+      <name>n</name>
+      <desc>Toggle tailhook.</desc>
+      <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/hook/tailhook-cmd-norm</property>
+      </binding>
+    </key>
+
+   <key n="67">
+     <name>Shift-C</name>
+     <desc>Release parking brake, release holdback, fire catapult.</desc>
+     <binding>
+       <command>property-assign</command>
+       <property>/controls/gear/brake-parking</property>
+       <value>0.0</value>
+     </binding>
+     <binding>
+       <command>property-assign</command>
+       <property>fdm/jsbsim/systems/holdback/holdback-cmd</property>
+       <value>0.0</value>
+     </binding>
+     <binding>
+       <command>property-assign</command>
+       <property>fdm/jsbsim/systems/catapult/cat-launch-cmd</property>
+       <value>1.0</value>
+     </binding>
+    </key>
+
+    <key n="70">
+     <name>Shift-F</name>
+     <desc>toggle wing fold</desc>
+     <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/wing_fold/command</property>
+     </binding>
+    </key>
+
+ </keyboard>
+</input>
+
+ <fdm>
+  <jsbsim>
+   <simulation>
+     <sim-time-sec>0</sim-time-sec>
+   </simulation>
+   <systems>
+    <holdback>
+      <holdback-cmd type="double">0</holdback-cmd>
+    </holdback>
+    <dump>
+      <armed type="double">0</armed>
+    </dump>
+    <reverser>
+      <command type="double">0</command>
+    </reverser>
+    <canopy>
+      <command type="double">0</command>
+      <position type="double">0</position>
+    </canopy>
+    <wing_fold>
+      <command type="double">0</command>
+    </wing_fold>
+   </systems> 
+  </jsbsim>
+ </fdm>
+
+ <instrumentation>
+  <marker-beacon>
+    <volume type="double" archive="y">0.0</volume>
+  </marker-beacon>
+  <radar>
+    <range type="int">40</range>
+  </radar>
+  <rdmi-mode type="int">0</rdmi-mode> <!-- 0=TAC, 1=VOR, 2=ADF -->
+ </instrumentation>
+
+ <systems>
+   <refuel>
+     <contact type="bool">false</contact>
+     <type>probe</type>
+   </refuel>
+ </systems>
+
+ <nasal>
+   <aar>
+     <file>Aircraft/DavePack/Nasal/aar_jsbsim.nas</file>
+   </aar>
+ </nasal>
+
+</PropertyList>
+

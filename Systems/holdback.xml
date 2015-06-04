@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<system name="holdback">
+
+  <channel name="Holdback_Launchbar">
+
+     <switch name="systems/holdback/switch">
+          <default value="0"/>
+          <test value="forces/fbx-prop-lbs">
+                systems/holdback/holdback-cmd == 1
+          </test>
+          <test value="0">
+                gear/unit[1]/WOW == 0
+          </test>
+          <output>external_reactions/holdback/magnitude</output>
+     </switch>
+
+  </channel>
+
+</system>
